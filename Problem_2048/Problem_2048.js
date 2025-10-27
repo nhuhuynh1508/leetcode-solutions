@@ -1,8 +1,8 @@
 function isBalanced(num) {
     const str = String(num);
-    for (const ch of new Set(str)) {
-        const count = str.split(ch).length - 1;
-        if (count !== Number(ch)) {
+    for (const char of new Set(str)) {
+        const count = str.split(char).length - 1;
+        if (count !== Number(char)) {
             return false;
         }
     }
