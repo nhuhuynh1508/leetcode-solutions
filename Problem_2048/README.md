@@ -7,6 +7,10 @@ Given an int n, return the smallest numerically balanced number strictly greater
 **Difficulty**: Medium
 **Time Complexity**: O(1)
 
+#### Approach
+1. Count how many times digit d appear in the number x that there are exactly d occurences of that digit d.
+2. Find the smallest balanced number x that greater than n.
+
 #### Explanation
 1. **isBalanced()**:
 - Converts the number to a string.
